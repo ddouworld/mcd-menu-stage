@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.*
+!.env.example
+data/menu.json
+outputs/*.html
+!outputs/demo.html
+!outputs/snack-demo.html
+!outputs/low-budget-demo.html
+artifacts/

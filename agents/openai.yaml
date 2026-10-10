@@ -1,0 +1,11 @@
+interface:
+  display_name: "麦麦出场图鉴"
+  short_description: "先领取当前可领优惠券，再按预算和偏好推荐麦当劳菜单，用剪影猜谜生成可离线分享的 HTML"
+  default_prompt: "使用 $mcd-menu-stage，先领券再按预算和口味推荐；预算不足也生成页面，对话只返回 HTML，页面内可导出 PNG。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "mcd-mcp"
+      description: "麦当劳中国 MCP，用于先领取优惠券，再查询门店可用券、可售餐品、营养及核验整单价格"
+      transport: "streamable_http"
+      url: "https://mcp.mcd.cn"

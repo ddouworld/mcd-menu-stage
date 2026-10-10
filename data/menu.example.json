@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "isDemo": true,
+  "title": "今天的饭点，主角登场。",
+  "request": {
+    "text": "一个人吃晚餐，预算 35 元，想吃汉堡，搭配小食和饮品。",
+    "budget": 35,
+    "people": 1,
+    "dining": "takeaway",
+    "preferences": ["汉堡", "小食", "饮品"]
+  },
+  "store": { "name": "演示餐厅" },
+  "queriedAt": null,
+  "sourceTools": [],
+  "quote": {
+    "status": "demo",
+    "subtotal": 40,
+    "discount": 7,
+    "deliveryFee": 0,
+    "otherFees": 0,
+    "total": 33,
+    "couponLabel": "示例组合优惠（非真实活动）"
+  },
+  "items": [
+    {
+      "id": "demo-burger",
+      "name": "巨无霸汉堡",
+      "quantity": 1,
+      "role": "主食担当",
+      "art": "burger",
+      "unitPrice": 22,
+      "hints": ["这顿饭的主角，由我来担任。", "我是你想吃的汉堡家族成员。", "我的名字里，有一个「巨」字。"],
+      "entrance": "我就是——巨无霸汉堡！",
+      "reason": "你想吃汉堡，所以这份演示菜单先安排一位主食担当，再搭配小食和饮品。"
+    },
+    {
+      "id": "demo-fries",
+      "name": "薯条",
+      "quantity": 1,
+      "role": "小食担当",
+      "art": "fries",
+      "unitPrice": 10,
+      "hints": ["我负责这顿饭的小食环节。", "我的队伍成员，通常是一根一根的。", "我的名字里，有一个「薯」字。"],
+      "entrance": "我就是——薯条！",
+      "reason": "作为演示中的小食搭档，补全你想要的汉堡、小食、饮品组合。"
+    },
+    {
+      "id": "demo-drink",
+      "name": "可乐",
+      "quantity": 1,
+      "role": "饮品担当",
+      "art": "drink",
+      "unitPrice": 8,
+      "hints": ["轮到饮品担当登场了。", "这次我带着杯子和吸管来。", "我的名字，是两个字。"],
+      "entrance": "我就是——可乐！",
+      "reason": "这份演示选择饮品来搭配主食和小食；实际生成时会按你的口味替换。"
+    }
+  ]
+}

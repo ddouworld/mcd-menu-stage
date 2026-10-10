@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "isDemo": true,
+  "title": "休息一下，小食登场。",
+  "request": {
+    "text": "一个人的下午小食，预算 20 元，想吃鸡块，再搭配一杯咖啡。",
+    "budget": 20,
+    "people": 1,
+    "dining": "dine-in",
+    "preferences": ["鸡块", "咖啡", "下午小食"]
+  },
+  "store": { "name": "演示餐厅" },
+  "queriedAt": null,
+  "sourceTools": [],
+  "quote": { "status": "demo", "subtotal": 20, "discount": 0, "deliveryFee": 0, "otherFees": 0, "total": 20, "couponLabel": null },
+  "items": [
+    {
+      "id": "demo-nuggets",
+      "name": "麦乐鸡",
+      "quantity": 1,
+      "role": "小食担当",
+      "art": "nuggets",
+      "unitPrice": 12,
+      "hints": ["这次的小食环节，由我登场。", "你今天想吃鸡块，我就来了。", "我的名字里，有一个「乐」字。"],
+      "entrance": "我就是——麦乐鸡！",
+      "reason": "你想吃鸡块，这份演示先安排小食，再搭配咖啡；份量及规格实际生成时以查询结果为准。"
+    },
+    {
+      "id": "demo-coffee",
+      "name": "美式咖啡",
+      "quantity": 1,
+      "role": "饮品担当",
+      "art": "coffee",
+      "unitPrice": 8,
+      "hints": ["下午的饮品担当来了。", "我是你点名的咖啡家族成员。", "我的名字前两个字是「美式」。"],
+      "entrance": "我就是——美式咖啡！",
+      "reason": "用一杯咖啡搭配你想吃的小食；实际菜单会按门店可售规格和口味偏好选择。"
+    }
+  ]
+}

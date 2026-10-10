@@ -1,0 +1,14 @@
+{
+  "name": "mcd-menu-stage",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "用真实麦当劳 MCP 数据生成猜谜式菜单 HTML",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "demo": "node scripts/render-menu.mjs --data data/menu.example.json --out outputs/demo.html",
+    "demo:low-budget": "node scripts/render-menu.mjs --data data/menu.low-budget.example.json --out outputs/low-budget-demo.html",
+    "render": "node scripts/render-menu.mjs",
+    "test": "node --test tests/menu.test.mjs"
+  }
+}

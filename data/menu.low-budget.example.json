@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "isDemo": true,
+  "title": "这次的饭点，先等一等。",
+  "clientName": "当前客户端",
+  "request": {
+    "text": "一个人用餐，总预算 1 元，到店外带。",
+    "budget": 1,
+    "people": 1,
+    "dining": "takeaway",
+    "preferences": ["预算 1 元"]
+  },
+  "store": { "name": "演示餐厅" },
+  "queriedAt": null,
+  "sourceTools": [],
+  "result": {
+    "status": "no-match",
+    "reason": "budget",
+    "message": "在这份演示结果中，1 元预算没有匹配到可点的餐品。调整预算后，就可以重新安排主角登场。",
+    "minimumTotal": null
+  },
+  "quote": { "status": "not-applicable" },
+  "items": []
+}
